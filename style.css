@@ -1,0 +1,55 @@
+/*global presets style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.nav--logo {
+  color: black;
+  font-weight: 300;
+}
+/* nav bar styles here */
+.nav--bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid rgb(159, 159, 159);
+}
+.nav--links {
+  display: flex;
+  gap: 0.2rem;
+  list-style: none;
+  color: gray;
+  font-family: sans-serif;
+}
+@media screen and(min-width:700px) {
+  .navlinks-container {
+    display: flex;
+  }
+}
+/* dairy container styling */
+#dairy--container {
+  display: flex;
+  max-width: 1000px;
+  margin-inline: auto;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.product--card {
+  border: 1px solid rgb(159, 159, 159);
+  padding: 1rem;
+  width: 100%;
+  max: width 220px;
+}
+.product--card p {
+  color: rgb(159, 159, 159);
+  letter-spacing: 0.08rem;
+  margin-bottom: 0.06rem;
+  row-gap: 1.5rem;
+  column-gap: 3rem;
+  justify-content: centers;
+}
